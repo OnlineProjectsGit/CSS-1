@@ -6,7 +6,7 @@
 body {
     width: 100%;
     height: 100vh;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
     /* THIS IS A COMMENT */
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border: 2px solid black;
 }
 
@@ -42,4 +42,30 @@ h1 {
 }
 
 
-.bottom-element {}
+.bottom-element {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(110, 109, 109);
+}
+
+.nav-links {
+    /* border: 2px solid green; */
+
+}
+.nav-link {
+    margin: 0 3px;
+    padding: 0 3px;
+    color: white;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.nav-link:hover {
+    background-color: antiquewhite;
+}
+
+.search {
+    /* border: 2px solid lightblue; */
+
+}
